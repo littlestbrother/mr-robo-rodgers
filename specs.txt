@@ -1,0 +1,13 @@
+Describe: countUp();
+Test: "It should convert and integer to an array of numbers incrementing by 1 leading up to that number."
+Output: countUp(5);
+Result: [1,2,3,4,5];
+
+Describe: convertToStatement();
+Test: "It should convert integer to plain english sentence based on hierarchy of values predefined by epicodus."
+"Hierarchy goes from least to greatest, where the greater integer over rules lesser integer when both integers are present in an element."
+    1 "Beep!"
+    2 "Boop!"
+    3 "Won't you be my neighbor?"
+Output: convertToStatement();
+Result: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!",  "Beep!", "Boop!", "Won't you be my neighbor?"
