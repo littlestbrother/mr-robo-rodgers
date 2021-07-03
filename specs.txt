@@ -4,17 +4,17 @@ Output: countUp(5);
 Result: [1,2,3,4,5];
 
 Describe analyzeHierarchy();
-Test: "It will test if the current element in the array contains a 1, 2, or 3."
-Output: analyzeHierarchy(int);
+Test: "It will test if the current element in the array contains a 1, 2, or 3, and will determine if the element should be considered beep, boop, or neighbor."
+Output: analyzeHierarchy(variable);
 Result: 1, 1 = Beep
         2, 2 = Boop
-        3, 3, = Neighbor
+        3, 3 = Neighbor
+        13, 3 = Neighbor 
 
-Describe: convertToStatement();
-Test: "It should convert integer to plain english sentence based on hierarchy of values predefined by epicodus."
-"Hierarchy goes from least to greatest, where the greater integer over rules lesser integer when both integers are present in an element."
+Describe: convertToResult();
+Test: "It will convert array to string, replacing commas and adding editing the DOM on the HTML page"
     1 "Beep!"
     2 "Boop!"
     3 "Won't you be my neighbor?"
-Output: convertToStatement();
-Result: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!",  "Beep!", "Boop!", "Won't you be my neighbor"?
+Output: convertToResult(variable);
+Result: "0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop! Won't you be my neighbor?"
