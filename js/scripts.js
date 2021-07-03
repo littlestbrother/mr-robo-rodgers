@@ -41,6 +41,9 @@ $(document).ready(function () {
         event.preventDefault();
         let int = $("input#text").val();//get user input
         int = countUp(int);
-        $("#result").text(convertToResult(analyzeHierarchy(int)));//analyze array hierarchy, push text to array, display result.
+        result = convertToResult(analyzeHierarchy(int));//analyze array hierarchy, push text to array, display result.
+        $("#result").text(result);
+        let msg = new SpeechSynthesisUtterance(result); //super cool speech api ^ ...sometimes works but its just for fun!
+        window.speechSynthesis.speak(msg);//https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
     });
 });//front-end ends here 👆
