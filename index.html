@@ -1,6 +1,8 @@
 <html>
 
 <head>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
         integrity="undefined" crossorigin="anonymous">
@@ -15,13 +17,15 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Mr. Robo-Rogers</h1>
-        <form>
-            <h3>Input integer:</h3>
-            <input type="number" min="0" max="100" placeholder=":)" id="text">
-            <button type="submit">Submit</button>
-        </form>
+    <h1>🤖 Mr. Robo-Rogers</h1>
+    <div id="formBox">
+    <form>
+        <h3>Input integer:</h3>
+        <input type="number" min="0" max="100" placeholder=":)" id="text">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+    <div id="resultBox">
         <h2>Result:</h2>
         <h3 id="result"></h3>
     </div>

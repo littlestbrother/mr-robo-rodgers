@@ -1,5 +1,5 @@
 Describe: countUp();
-Test: "It should convert and integer to an array of numbers incrementing by 1 leading up to that number."
+Test: "It will convert and integer to an array of numbers incrementing by 1 leading up to that number."
 Output: countUp(5);
 Result: [1,2,3,4,5];
 

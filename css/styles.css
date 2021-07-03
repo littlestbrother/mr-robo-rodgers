@@ -1,3 +1,52 @@
-/* h1{
-    color: red;
-} */
+/* color palette: https://colorhunt.co/palette/4e89ae43658bed6663ffa372 */
+
+body{
+    background-color: #FFA372;
+}
+
+h1{
+    color: white;
+    width: 100%;
+    padding: 1%;
+    background-color: #4E89AE;
+}
+
+#formBox{
+    color: white;
+    margin-top: -1%;
+    padding: 1%;
+    width: 100%;
+    background-color: #43658B;
+}
+
+#resultBox{
+    color: white;
+    margin-top: 0%;
+    padding: 1%;
+    width: 100%;
+    background-color: #ED6663;
+}
+
+button {
+    background-color: #ed6663;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Arimo', sans-serif;
+    border: none;
+    border-radius: 3%;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 4%;
+    color: #43658b;
+}
