@@ -3,6 +3,13 @@ Test: "It should convert and integer to an array of numbers incrementing by 1 le
 Output: countUp(5);
 Result: [1,2,3,4,5];
 
+Describe analyzeHierarchy();
+Test: "It will test if the current element in the array contains a 1, 2, or 3."
+Output: analyzeHierarchy(int);
+Result: 1, 1 = Beep
+        2, 2 = Boop
+        3, 3, = Neighbor
+
 Describe: convertToStatement();
 Test: "It should convert integer to plain english sentence based on hierarchy of values predefined by epicodus."
 "Hierarchy goes from least to greatest, where the greater integer over rules lesser integer when both integers are present in an element."
@@ -10,4 +17,4 @@ Test: "It should convert integer to plain english sentence based on hierarchy of
     2 "Boop!"
     3 "Won't you be my neighbor?"
 Output: convertToStatement();
-Result: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!",  "Beep!", "Boop!", "Won't you be my neighbor?"
+Result: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!",  "Beep!", "Boop!", "Won't you be my neighbor"?
